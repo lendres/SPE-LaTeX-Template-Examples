@@ -1,0 +1,94 @@
+45 Patch Control
+
+1
+1
+1
+SPE LaTeX Example.tex
+25
+2
+0
+
+SPE LaTeX Example.tex
+TeX
+403713275 1 -1 1501 -1 934 104 104 826 791 1 1 86 480 -1 -1 0 0 -1 -1 -1 -1 1 0 934 -1  0 -1 0
+Setup.tex
+TeX
+17837307 0 41 25 -1 808 26 26 1194 466 1 1 86 528 -1 -1 0 0 225 -1 -1 225 1 0 808 -1  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\cnpcreport.cls
+TeX:STY
+269496306 1 28 13 28 34 260 260 1385 890 1 0 302 448 -1 -1 0 0 23 0 0 23 1 0 34 28  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\cnpcheadersandfooters.sty
+TeX:STY
+269496306 0 7 26 26 1 234 234 1359 864 1 0 71 256 -1 -1 0 0 25 0 0 25 1 0 1 26  0 0 0
+:\Custom Program Files\LaTeX\bibtex\bib\le.bib
+BibTeX
+269485042 0 1041 687 21 2 52 52 1177 682 1 1 93 336 -1 -1 0 0 60 0 0 60 1 0 2 21  0 -1 0
+:\Custom Program Files\LaTeX\bibtex\bib\strings.bib
+BibTeX
+269484274 1 0 1 106 1 78 78 1542 514 1 1 86 976 -1 -1 0 0 60 0 0 60 1 0 1 106  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\osdcreport.cls
+TeX:STY
+269495538 0 32 16 32 16 130 130 1294 546 1 0 176 432 -1 -1 0 0 23 0 0 23 1 0 16 32  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\osdcheadersandfooters.sty
+TeX:STY
+1060082 0 31 96 2 22 182 182 1346 598 1 0 218 32 -1 -1 0 0 25 0 0 25 1 0 22 2  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\lepageformat.sty
+TeX:STY
+1060850 0 17 30 12 30 156 156 1281 786 1 0 274 192 -1 -1 0 0 25 0 0 25 1 0 30 12  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\lemarkup.sty
+TeX:STY
+269496306 1 13 43 10 1 182 182 1307 819 1 0 71 -32 -1 -1 0 0 25 0 0 25 1 0 1 10  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\lefontsizes.sty
+TeX:STY
+1060850 0 0 1 5 32 156 156 1576 572 1 0 288 80 -1 -1 0 0 25 0 0 25 1 0 32 5  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\letable.sty
+TeX:STY
+1060850 0 17 79 17 50 182 182 1608 598 1 0 414 272 -1 -1 0 0 25 0 0 25 1 0 50 17  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\cnpcbusinessletter.cls
+TeX:STY
+1060850 0 26 26 26 40 182 182 1307 812 1 0 344 416 -1 -1 0 0 16 0 0 16 1 0 40 26  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\lebusinessletterbase.cls
+TeX:STY
+1060850 0 0 1 58 26 260 260 1385 890 1 0 246 400 -1 -1 0 0 -1 -1 -1 -1 1 0 26 58  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\ikosybusinessletter.cls
+TeX:STY
+269496306 0 0 1 0 1 234 234 1359 864 1 0 71 0 -1 -1 0 0 -1 -1 -1 -1 1 0 1 0  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\lebook.cls
+TeX:STY
+1060850 0 0 1 30 1 78 78 1203 708 1 0 71 480 -1 -1 0 0 -1 -1 -1 -1 1 0 1 30  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\leheadersandfooters.sty
+TeX:STY
+1060850 0 31 26 4 18 286 286 1411 916 1 0 190 -800 -1 -1 0 0 -1 -1 -1 -1 1 0 18 4  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\lebookbase.cls
+TeX:STY
+1060850 0 0 1 0 1 0 0 1125 630 1 0 71 0 -1 -1 0 0 -1 -1 -1 -1 1 0 1 0  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\lefonts.sty
+TeX:STY
+1060850 0 0 1 17 38 52 52 1177 682 1 0 330 272 -1 -1 0 0 -1 -1 -1 -1 1 0 38 17  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\legraphicextensions.sty
+TeX:STY
+1060850 0 0 1 0 1 26 26 1151 656 1 0 71 0 -1 -1 0 0 -1 -1 -1 -1 1 0 1 0  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\leparskip.sty
+TeX:STY
+269496306 0 0 1 0 1 130 130 1255 760 1 0 71 0 -1 -1 0 0 -1 -1 -1 -1 1 0 1 0  0 0 0
+:\Custom Program Files\LaTeX\TeX\LaTeX\lefloats.sty
+TeX:STY
+1060850 1 24 38 24 37 182 182 1307 812 1 0 323 384 -1 -1 0 0 -1 -1 -1 -1 1 0 37 24  0 0 0
+Model Comparison Report.aux
+TeX:AUX:UNIX
+269594610 0 0 1 0 1 234 234 1359 871 1 0 71 0 -1 -1 0 0 7 0 0 7 1 0 1 0  0 0 0
+:\Custom Program Files\WinEdt\Dictionary\User.dic
+DATA:DIC:UNIX
+5341426 2 387 1 387 9 26 26 1148 442 1 0 127 288 -1 -1 0 0 18 0 0 18 1 0 9 387  0 0 0
+:\Users\lance.endres\AppData\Roaming\WinEdt Team\WinEdt 11\ConfigEx\Dictionaries.ini
+DATA:INI:EDT
+1049594 0 0 1 0 1 0 0 1122 416 1 1 86 0 -1 -1 0 0 83 0 0 83 1 0 1 0  0 -1 0
+
+*SPE LaTeX Example.tex
+>
+*Setup
+>
+*? strings.bib
+*? le.bib
+<
+<
