@@ -39,6 +39,8 @@ TeX/LaTeX/Figures/*.eps
 *.toc
 *.pdf
 *.prj
+*.bcf
+*.run.xml
 
 *.jpg
 *.eps
