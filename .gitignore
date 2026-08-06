@@ -23,26 +23,23 @@ Temporary Items
 TeX/LaTeX/Figures/*.jpg
 TeX/LaTeX/Figures/*.eps
 
-TeX/LaTeX/leaddress.sty
-TeX/LaTeX/leaddress.sty
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.bak
+*.synctex
+*.toc
+*.pdf
+*.prj
 
-Installation and Usage/*.aux
-Installation and Usage/*.bbl
-Installation and Usage/*.blg
-Installation and Usage/*.dvi
-Installation and Usage/*.idx
-Installation and Usage/*.ilg
-Installation and Usage/*.ind
-Installation and Usage/*.lof
-Installation and Usage/*.log
-Installation and Usage/*.lot
-Installation and Usage/*.out
-Installation and Usage/*.bak
-Installation and Usage/*.synctex
-Installation and Usage/*.toc
-Installation and Usage/*.pdf
-Installation and Usage/*.prj
-
-Installation and Usage/Figures/*.jpg
-Installation and Usage/Figures/*.eps
-Installation and Usage/Figures/*.pdf
+*.jpg
+*.eps
+*.pdf
