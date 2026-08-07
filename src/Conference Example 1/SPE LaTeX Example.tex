@@ -14,7 +14,6 @@
 %
 \addbibresource{speexample.bib} 
 
-
 % HEADER SETUP
 \newcommand{\spevenuename}{2024 SPE Annual Technical Conference and Exhibition}
 \newcommand{\spemanuscriptnumber}{SPE-123456-MS}
@@ -25,9 +24,21 @@
 \newcommand{\specorrespondingauthor}{1; email@myuniversity.edu}
 \newcommand{\spekeywords}{keyword1; keyword2}
 
-\begin{document}
 
+\usepackage{lipsum}
+
+\begin{document}
 \spemaketitle{}
+
+\spesection{Abstract}
+\lipsum[1-2]{}
+
+\spesection{Introduction}
+\spesubsection{Background}
+\lipsum[2-5]{}
+
+\spesubsection{Current Work}
+\lipsum[6-8]{}
 
 This is the front matter.
 
