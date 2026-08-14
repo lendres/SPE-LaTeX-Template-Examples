@@ -1,0 +1,90 @@
+\documentclass[conference]{spe}
+
+\usepackage{lipsum}
+
+\newcommand{\spevenuename}{2026 IPTC Summit on AI for the Energy Industry}
+\newcommand{\spemanuscriptnumber}{IPTC-25222-MS}
+\newcommand{\spetitle}{Advancing Surrogate Modeling for CO\textsubscript{2} Storage Risk Through Cutting-edge Survival Analysis-driven AI}
+\newcommand{\speauthors}{A. Gurwicz; D. H. Gutman; E. Gildin}
+\newcommand{\speaffiliations}{Texas A\&M University, College Station, TX, USA}
+\newcommand{\speauthoraffiliations}{1; 1; 1}
+
+\addbibresource{bibliography.bib}
+
+\begin{document}
+
+\spemaketitle
+
+\spesection{Introduction}
+
+\lipsum[1]{}, ~\cite{gurwicz24} and~\cite{gurwicz25}.
+\begin{enumerate}
+    \item \lipsum[3][1]
+    \item \lipsum[3][2]
+    \item \lipsum[3][3]
+\end{enumerate}
+
+\lipsum[2]
+\begin{itemize}
+    \item \lipsum[4][1]
+    \item \lipsum[4][2]
+\end{itemize}
+
+\spesection{Survival Analysis}
+\textcite{cox72} \lipsum[5]
+\begin{equation}
+    Y \coloneqq \min \left\{ T, C \right\}
+    \text{,}\qquad
+    \delta \coloneqq \begin{cases} 1 & T \leq C \\ 0 & T > C \end{cases}.
+    \label{eq:survival}
+\end{equation}
+
+\lipsum[5]~\parencite{bertsimas2017,bertsimas2019}
+
+\spesubsection{Setting the Table: Notation}
+\lipsum[6]
+
+\spesubsection{Model}
+As our present goal is to push the limits of the current state-of-the-art in survival analysis for CO\textsubscript{2} storage, we begin by applying our methodology to the same case study present in the literature.
+
+Furthermore, 50 uncertainty realizations were generated via the Dykstra-Parsons coefficient~\parencite{dykstra50} and they all need to be accounted for in the methodology developed.
+~\spefirstref{fig:synthetic_reservoir} shows the distribution lipsums.
+For model development, the controls (i.e.\ inputs) are the CO\textsubscript{2} injection and water production rates, changed every 100 days until day 1500.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/synthetic_reservoir}
+    \caption{Distribution of generated uncertainty scenarios for the synthetic reservoir model. Figure from~\textcite{gurwicz25}.}
+    \label{fig:synthetic_reservoir}
+\end{figure}
+
+
+\spesection{Acknowledgements}
+This work was partially funded by the ACME Corporation's Center for Research. Thanks to Professor by Wile E.\ Coyote for his support.
+
+\nocite{aalen78}
+\nocite{bertsimas2017}
+\nocite{bertsimas2019}
+\nocite{bertsimas2022}
+\nocite{cox72}
+\nocite{cmg2023}
+\nocite{dykstra50}
+\nocite{gurwicz25}
+\nocite{hosseininoosheri2018}
+\nocite{iai2025}
+\nocite{ishwaran08}
+\nocite{james23}
+\nocite{jia2018}
+\nocite{kaplan58}
+\nocite{mckay1979}
+\nocite{nelson72}
+\nocite{netl2021}
+\nocite{polsterl20}
+\nocite{voulanas2026}
+\nocite{zhang2013}
+
+
+
+\printbibliography
+
+\end{document} 

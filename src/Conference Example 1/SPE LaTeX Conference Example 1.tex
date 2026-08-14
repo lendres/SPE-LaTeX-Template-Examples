@@ -5,6 +5,8 @@
 % PREAMBLE.
 \documentclass[conference]{spe}
 
+\usepackage{lipsum}
+
 % INCLUDE A BIBLIOGRAPHY.
 %\usepackage[
 %  backend=biber,
@@ -13,7 +15,6 @@
 %]{biblatex}
 %
 \addbibresource{speexample.bib} 
-
 
 % HEADER SETUP
 \spevenuename{2024 SPE Annual Technical Conference and Exhibition}
@@ -25,11 +26,38 @@
 \specorrespondingauthor{1; email@myuniversity.edu}
 \spekeywords{keyword1; keyword2}
 
-\begin{document}
 
+\begin{document}
 \spemaketitle{}
 
-This is the front matter.
+\spesection{Abstract}
+\lipsum[1-2]{}
+
+\spesection{Introduction}
+\spesubsection{Background}
+\lipsum[2-5]{}
+
+\spesubsection{Current Work}
+\lipsum[6-8]{}
+
+\spesection{Citing References}
+
+\spesubsection{Paragraph Citing Examples}
+~\newline{}\noindent{}\parencite{ref:balasubramanian2016a, ref:brett1989b, ref:ledgerwood2013a}
+\par{}\noindent{}\parencite{ref:brett1992a, ref:pavone1994a, ref:mowat2001a}
+
+\spesubsection{Text Citing Examples}\par{}
+
+\spesubsubsection{One Author}\par{}\noindent{}
+\par{}\noindent{}\textcite{ref:brett1992a}
+
+\spesubsubsection{Two Authors}\par{}\noindent{}
+\par{}\noindent{}\textcite{ref:pavone1994a}
+
+\spesubsubsection{Three Authors}\par{}\noindent{}
+\par{}\noindent{}\textcite{ref:brett1989b}
+\par{}\noindent{}\textcite{ref:mowat2001a}
+
 
 % CONTENT.
 
