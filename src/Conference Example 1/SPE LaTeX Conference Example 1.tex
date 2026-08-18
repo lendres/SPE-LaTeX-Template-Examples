@@ -6,6 +6,7 @@
 \documentclass[conference]{spe}
 
 \usepackage{lipsum}
+\usepackage{tikz}
 
 % INCLUDE A BIBLIOGRAPHY.
 %\usepackage[
@@ -31,14 +32,75 @@
 \spemaketitle{}
 
 \spesection{Abstract}
+\label{sec:abstract}
 \lipsum[1-2]{}
 
 \spesection{Introduction}
+\label{sec:introduction}
+These first sections, \nameref{sec:abstract} and \nameref{sec:introduction} are used to show how a typical paper would start while also demonstrating section headings and name references.
+
 \spesubsection{Background}
-\lipsum[2-5]{}
+\lipsum[3-4]{}
 
 \spesubsection{Current Work}
-\lipsum[6-8]{}
+\lipsum[5-6]{}
+
+
+\spesection{Floats}
+An example image is shown in \cref{fig:pressureprofile}. Multiple figures can be referenced using \cref{fig:pressureprofile,fig:productiondecline}.
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[scale=0.75]
+        \draw[->] (0,0) -- (6,0) node[right] {Distance};
+        \draw[->] (0,0) -- (0,4) node[above] {Pressure};
+
+        \draw[thick,blue]
+            plot[smooth] coordinates {
+                (0,3.5)
+                (1,3.2)
+                (2,2.8)
+                (3,2.3)
+                (4,1.7)
+                (5,1.0)
+            };
+    \end{tikzpicture}
+    \caption{Pressure as a function of distance through the reservoir.}
+    \label{fig:pressureprofile}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[scale=0.75]
+        \draw[->] (0,0) -- (7,0) node[right] {Time};
+        \draw[->] (0,0) -- (0,4.5) node[above] {Production rate};
+
+        \draw[thick,red]
+            plot[smooth] coordinates {
+                (0,4.0)
+                (1,3.1)
+                (2,2.4)
+                (3,1.9)
+                (4,1.5)
+                (5,1.2)
+                (6,1.0)
+            };
+
+        \draw[dashed] (0,1) -- (6,1);
+    \end{tikzpicture}
+    \caption{Production-rate decline over time.}
+    \label{fig:productiondecline}
+\end{figure}
+
+An example equation is shown in \cref{eq:darcylaw}. Multiple equations can be referenced with \cref{eq:darcylaw,eq:exponentialdecline}.
+\begin{equation}
+    q = -\frac{kA}{\mu}\frac{\mathrm{d}p}{\mathrm{d}x}
+    \label{eq:darcylaw}
+\end{equation}
+
+\begin{equation}
+    q(t) = q_i e^{-Dt}
+    \label{eq:exponentialdecline}
+\end{equation}
 
 \spesection{Citing References}
 The title formatting is different from standard in this section. Do not use them as indications of whether or not the formatting is valid.
